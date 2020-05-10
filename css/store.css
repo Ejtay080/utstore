@@ -1,0 +1,54 @@
+@font-face{
+  font-family: "undertale";
+  src: url("../fonts/MonsterFriendFore.otf") format("opentype");
+}
+.container {
+    display: block;
+  }
+  img{
+    width: 85%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border: rgb(196, 1, 1) 2px solid;
+  }
+  header {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: "undertale";
+  }
+  .store {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: red;
+    border: rgb(196, 1, 1) 2px solid;
+    border-radius: 5%;
+    font-family: "undertale";
+    text-align: center;
+  }
+  footer {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  body{
+    background-color: white;
+  }
+  div.store > img{
+    border: rgb(196, 1, 1) 2px solid;
+  }
+ #searchbar{
+   position: relative;
+   top: 10px;
+   justify-content: center;
+   display: flex;
+   width: 85%;
+   margin: 0 auto;
+   
+ }
